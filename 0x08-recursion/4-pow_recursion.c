@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-  _pow_recursion - return x to power of y
-  *@x: int 
-  *@y: int
-  *
-  *Return: int
-  */
+ * _pow_recursion - return x to power of y
+ *@x: base
+ *@y: exponant
+ *
+ *Return: int
+*/
 
 int _pow_recursion(int x, int y)
 {
@@ -22,5 +22,5 @@ int _pow_recursion(int x, int y)
 	{
 		return (1);
 	}
-		return x * _pow_recursion(x, y - 1);
+		return (x * _pow_recursion(x, y - 1));
 }
