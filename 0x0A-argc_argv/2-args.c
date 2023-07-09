@@ -3,7 +3,7 @@
 /**
   *main - prints all arguments it recieves
   *@argc: int
-  *@agrv: list
+  *@argv: list
   *Return: 0
  */
 
