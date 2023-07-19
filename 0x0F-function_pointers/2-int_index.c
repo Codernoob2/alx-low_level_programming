@@ -5,6 +5,7 @@
   *@array: the int array
   *@size: size of array
   *@cmp: compare function
+  *Return: the intger index
   */
 
 int int_index(int *array, int size, int (*cmp)(int))
